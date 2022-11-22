@@ -1,0 +1,92 @@
+version: "3.1"
+
+stories:
+
+- story: feees
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fee_structure
+  - action: utter_fee_strucutre
+
+- story: admission
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_location
+  - action: utter_admission_location
+
+- story: admissionDocument 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_document
+  - action: utter_admission_document
+
+- story: AdmissionDate
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_process_date
+  - action: utter_admission_process_date
+
+- story: contact_story
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: contact
+  - action: utter_contact
+
+- story: educational_loan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: loan
+  - action: utter_loan
+
+- story: hostel
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: hostel_requirement
+  - action: utter_hostel_requirement
+
+- story: fee_installment
+  steps:
+  - intent: fee_installment
+  - action: utter_fee_installment
+
+- story: Scholarship
+  steps: 
+  - intent: scholarship
+  - action: utter_scholarship
+
+- story: travelling
+  steps:
+  - intent: travelling_options
+  - action: utter_travelling_option
+
+- story: Bus_story
+  steps:
+  - intent: travel_bus
+  - action: utter_travel_bus
+
+- story: Train_story
+  steps:
+  - intent: travel_train
+  - action: utter_travel_train
+
+- story: Aeroplane_story
+  steps:
+  - intent: travel_aeroplane
+  - action: utter_travel_aeroplane
+
+- story: Xerox_Store
+  steps:
+  - intent: xerox_center
+  - action: utter_xerox_center
+
+- story: Stay_Story
+  steps:
+  - intent: stay
+  - action: utter_stay

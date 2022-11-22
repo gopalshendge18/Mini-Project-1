@@ -1,0 +1,90 @@
+version: "3.1"
+
+intents:
+  - fee_structure
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - admission_process_date
+  - admission_location
+  - admission_document
+  - contact
+  - loan
+  - hostel_requirement
+  - fee_installment
+  - scholarship
+  - travelling_options
+  - travel_bus
+  - travel_train
+  - travel_aeroplane
+  - xerox_center
+  - stay
+
+responses:
+  utter_fee_strucutre:
+  - text: "Fee structure of the college."
+    image: "https://i.imgur.com/2O69xJK.jpg"
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"
+  
+  ##utter_affirm
+
+  ##utter_deny
+
+
+
+  utter_iamabot:
+  - text: "Well that hurt my feeling you know. I am trying to help you and you are refering me as bot but, still yes I am a bot."
+
+  utter_admission_process_date:
+  - text: "Admission is going to be from  dd/mm/yyyy to dd/mm/yyyy in college campus."
+  
+  utter_admission_location:
+  - text: The admission is going on in tilak hall. If you want to know the location click on the below google map link 
+          (https://www.google.com/maps/place/16.844411100312666,74.60121807395183)
+
+  utter_admission_document:
+  - text: "Required document for the admission are as follows."
+
+  utter_contact:
+  - text: "If your query is not solved then you can contact to Mr. Gopal Shendge Sir - +91-7219364976"
+
+  utter_loan: 
+  - text: "You have try for educational loan on your own. College doesn't provide support for loan but, they will help you to find the scholarship schema."
+
+  utter_hostel_requirement:
+  - text: "You will get the information about the hostel admission at the time of the college admission."
+
+  utter_fee_installment:
+  - text: "For the first year we need to pay full fee of the college and from second year you can pay in installments if college allows."
+
+  utter_scholarship:
+  - text: "For scholarship related queries you can contact Mr. Sudesh Darkase Sir - +91-9075381828."
+
+  utter_travelling_option:
+  - text: "There are mainly two options to travel to the college.\nYou can take the Sangli Bus from Sangli Bus-Stand you can take Miraj City Bus and it will take you to the college gate.\nElse if you are travelling via train you can pick auto from the Miraj or City bus."
+
+  utter_travel_bus:
+  - text: "Travel to Sangli and after that pick Miraj City Bus it will drop you to the front gate."
+
+  utter_travel_train:
+  - text: "Travel to Miraj junction and afterwards you can pick the auto or city bus to Walchand College of Engineering."
+
+  utter_travel_aeroplane:
+  - text: "Travel to Pune or Mumbai. Then pick the Sangli Bus from there. When you reach in sangli you can get to college by Miraj City Bus."
+
+  utter_xerox_center:
+  - text: "There is Xerox center at the back gate of the college Follow the link - https://www.google.com/maps/place/16.845725,74.598328"
+
+  utter_stay:
+  - text: "You can stay in the nearby hotels. The hotel closest to the college is Pai prakash you can follow the link to get there. Link - https://www.google.com/maps/place/16.847640084982313,74.59486533185178"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

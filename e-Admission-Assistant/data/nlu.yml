@@ -1,0 +1,210 @@
+version: "3.1"
+
+nlu:
+- intent: fee_structure
+  examples: |
+    -  Fee Structure of Walchand College of Engineering?
+    -  Where I can get the Fee Structure?
+    -  How to get the Fee Structure of Walchand?
+    - [Ff]ee [Ss]tructure.
+    - fee structure of walchand college of engineering?
+    - how to get the fee structure of walchand?
+    - where I can find the fee structure?
+    - where i can find the fee structure?
+    
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: admission_process_date
+  examples: |
+    - When admission process is going to start?
+    - Admission dates?
+    - Dates of admission?
+    - On which date admission are starting in the walchand?
+    - Where can we get the admission dates?
+    - when admission process is going to start?
+    - admission dates?
+    - admiss. dates?
+    - dates of admission?
+
+
+- intent: admission_location
+  examples: |
+    - Admission location?
+    - Where admissions are going on?
+    - Are the admission are going on in tilak hall?
+    - Where is admission process going on?
+    - admission location?
+    - where admission are going on?
+    - are the admission are going on in tilak hall?
+    - where is admission process going on?
+    - [Aa]dmission [Rr]oom[?|.]
+    - [Aa]dmission [Vv]enue[?|.]
+    
+
+
+- intent: admission_document
+  examples: |
+    - What are the documents are required for admission?
+    - What are required documents?
+    - Documents required?
+    - Which documents are required for the admission?
+    - Documents for the admission
+    - Admission document
+    - Admission doc
+    - Doc for admission
+
+- intent: contact
+  examples: |
+    - contact of co-ordinator.
+    - who is co-ordinator for admission.
+    - whom should I contact for the admission query?
+    - Contact of the admission co-ordinator.
+    - Co-ordinator for the admission.
+    - Where can we get the co-ordinator number in the college?
+
+
+- intent: loan
+  examples: |
+    - Does college helps for the educational loan?
+    - educational loan?
+    - contact for the educational loan.
+    
+
+- intent: hostel_requirement 
+  examples: |
+    - what are the requirement of the hostel.
+    - where we can get the information of the hostel.
+    - process to get admission in walchand hostel.
+    - how many students are there in the one room.
+    - who is rector of the hostel.
+    - where can we get information about the hostel admission?
+
+- intent: fee_installment
+  examples: |
+    - Is there fee installment available in the fee?
+    - is there fee installment available?
+    - Fee installment?
+    - fee installment?
+    - can I fill the fee in the installment?
+    - Installment in fee?
+    - fee istallment available?
+    - whom should I contact for the fee installment?
+    
+
+- intent: scholarship
+  examples: |
+    - Scholarship?
+    - Is there any scholarship provided by the college?
+    - are there any private scholarships in the college?
+    - Scholarships in the walchand college of engineering?
+    - Does college provide anyt scholarship for the student?
+
+- intent: travelling_options
+  examples: |
+     - what are the travelling options to reach the college
+     - how I can reach to college
+     - Ways to reach the collge
+     - how many ways to reach to college
+     
+
+
+- intent: travel_bus
+  examples: |
+     - Is there bus stand near to college
+     - How much far the collge from bus stand
+     - Is there any bus facility to reach college
+     - how I can reach to college via bus
+     - which bus should I prefer to reach college
+
+
+- intent: travel_train
+  examples: |
+      - Is there any railway staion near college
+      - railway station
+      - Can I reach to college via train
+      - What are the nearest railway staions 
+
+
+- intent: travel_aeroplane
+  examples: |
+      - Is there any airport near college
+      - airport
+      - Can I reach to college via airport
+      - What are the nearest airport
+
+
+- intent: xerox_center
+  examples: |
+    - where is the xerox center?
+    - is there any xerox center in the college?
+    - xerox center?
+
+- intent: stay
+  examples: |
+    - is there any stay option in college?
+    - is there any lodge near to college for stay?
+    - can we stay in hostel for a night?
+
+
+
+
+    
+
+
+    
+
+
