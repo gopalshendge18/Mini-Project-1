@@ -27,6 +27,19 @@ responses:
   - text: "Fee structure of the college."
     image: "https://i.imgur.com/2O69xJK.jpg"
 
+    buttons:
+      - title: "About free structure"
+        payload: "/fee_structure"
+      
+      - title: "About loan"
+        payload: "/loan"
+       
+      - title: "About Fees_Installment"
+        payload: "/fee_installment"
+
+      - title: "End chat"
+        payload: "/goodbye"
+
   utter_greet:
   - text: "Hey! How are you?"
 
@@ -48,9 +61,24 @@ responses:
   utter_admission_location:
   - text: The admission is going on in tilak hall. If you want to know the location click on the below google map link 
           (https://www.google.com/maps/place/16.844411100312666,74.60121807395183)
+    buttons:
+      - title: "Loaction of Tilak Hall"
+        payload: "/admission_location"
+      - title: "Continue"
+        payload: "/greet"
+      - title: "End chat"
+        payload: "/goodbye"
+
 
   utter_admission_document:
-  - text: "Required document for the admission are as follows."
+  - text: "You want admission documents "
+    buttons:
+      - title: "Download documnts pdf "
+        payload: "/admission_document"
+      - title: "click me for continue "
+        payload: "/greet"
+      - title: "End chat"
+        payload: "/goodbye"
 
   utter_contact:
   - text: "If your query is not solved then you can contact to Mr. Gopal Shendge Sir - +91-7219364976"
@@ -63,6 +91,7 @@ responses:
 
   utter_fee_installment:
   - text: "For the first year we need to pay full fee of the college and from second year you can pay in installments if college allows."
+   
 
   utter_scholarship:
   - text: "For scholarship related queries you can contact Mr. Sudesh Darkase Sir - +91-9075381828."
